@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+    .product-title {
+        @apply font-medium text-lg text-[#1E1E1E]
+    }
+    .add-to-cart {
+        @apply bg-black text-white font-medium py-3 px-4 rounded-md flex flex-grow items-center justify-center gap-4 hover:bg-[#FFC831] hover:text-black transition duration-300
+    }
+    .wishlist {
+        @apply text-black bg-[#ECEFF1] py-3 px-4 rounded-md hover:bg-red-300 transition duration-300
+    }
+    .p-price {
+        @apply text-[#1E1E1E] text-2xl font-semibold
+    }
+    .check-input {
+        @apply accent-black text-white w-4 h-4
+    }
+    .color-input {
+        @apply w-6 h-6 rounded-full border border-green-900
+    }
+
+}
+
+
+@layer utilities {
+    .box-shadow{
+        box-shadow: 0 10px 24px #C0C3C7;
+    }
+}
