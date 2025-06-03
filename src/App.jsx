@@ -9,9 +9,9 @@ function App() {
   return (
     <>
      <Header />
-     <Searchbar />
+      <Searchbar />
      <MainContent/>
-     <Footer />
+     {/*<Footer /> */}
     </>
   )
 }

@@ -4,7 +4,7 @@ import {Funnel,ChevronUp } from 'lucide-react';
 
 function Sidebar() {
   return (
-    <div className='flex flex-col gap-3 2xl:pe-8 pe-4 border-r border-[#CCCCCC] border-opacity-45'>
+    <div className='sm:flex hidden flex-col gap-3 2xl:pe-8 pe-4 border-r border-[#CCCCCC] border-opacity-45'>
         <div className="flex items-center gap-4 py-3 border-b-2 border-gray-300 border-opacity-45">
             <Funnel /> <h3 className='text-2xl  text-black'> Filters</h3>
         </div>
